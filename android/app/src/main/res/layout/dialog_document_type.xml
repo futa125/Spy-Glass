@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:maxLines="2"
+        android:text="@string/document_type_dialog_title"
+        android:textColor="@color/spyglass_blue"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/radio_receipt">
+
+        <RadioButton
+            android:id="@+id/radio_receipt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/spyglass_blue"
+            android:text="@string/receipt"
+            android:textColor="@color/spyglass_blue"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radio_offer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/spyglass_blue"
+            android:text="@string/offer"
+            android:textColor="@color/spyglass_blue"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radio_internal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/spyglass_blue"
+            android:text="@string/internal_document"
+            android:textColor="@color/spyglass_blue"
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/register_button"
+        style="@style/StyleButton"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/confirm" />
+
+</LinearLayout>

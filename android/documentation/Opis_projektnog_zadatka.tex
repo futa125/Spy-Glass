@@ -1,0 +1,44 @@
+\chapter{Opis projektnog zadatka}
+		
+		\section{Uvod}
+		
+		Rezultat ovog projektnog zadatka je mobilna aplikacija "SpyGlass"  i sustav namijenjen lakšoj internoj administraciji različitih tipova dokumenata unutar nekog poduzeća. Aplikacija će svim korisnicima unutar poslovnog subjekta pomoću ugrađene kamere na mobilnom uređaju omogućiti skeniranje dokumenata. Skenirani dokumenti će se pomoću optičkog prepoznavanje znakova pretvarati iz slikovnog formata u tekstualni format te će se u skladu s tipom dokumenta tekst na određeni način raščlaniti na dijelove. Dokumenti će se nakon skeniranja spremati u sustav i slati na daljnju obradu drugim korisnicima aplikacije zaduženim za određeni zadatak. Svaki korisnik će moći pristupiti svim već svojim skeniranim dokumentima, a ovisno o specijalizaciji korisnika aplikacija će korisniku nuditi i dodatne opcije. Korisnici aplikacije podijeljeni su u 4 kategorije koji tijekom rada sa sustavom međusobno razmjenjuju dokumente i tako administraciju dokumentima uvelike pojednostavljuju.
+		
+		\section{Korisnici aplikacije}
+		Korisnici aplikacije svrstani su u četiri grupe od kojih svaka ima neke zajedničke i neke specifične mogućnosti. Korisnici aplikacije dijele se na sljedeće skupine: \underline{zaposlenik}, \underline{revizor}, \underline{računovođa} i \underline{direktor}. Korisnici se prije korištenja usluga moraju registrirati uz odabir određene specijalizacije. Prilikom registracije nužno je unijeti e-mail adresu, lozinku, specijalizaciju, ime i prezime. Ako korisnik odabire specijalizaciju računovođe, dodatno mora izabrati za koji tip dokumenta se opredjeljuje. Nakon uspješne registracije ili logiranja u sustav, korisnik ostaje zapamćen.
+
+		\subsubsection{Zajedničke mogućnosti}
+		Svi korisnici aplikacije imat će mogućnost skeniranja dokumenata pomoću ugrađene kamere na mobilnom uređaju te skenirani dokument potvrditi ili odbaciti, imati pristup svojim skeniranim dokumentima unutar same aplikacije i moći se registrirati ili prijaviti u aplikaciju ovisno o tome je li korisnik već registriran u sustavu ili nije.
+
+		\subsubsection{Zaposlenik}
+		Zadatak zaposlenika je skeniranje dokumenta te uz opciju skeniranja ima mogućnost preko gumba potvrditi ispravnost skeniranog dokumenta i tako poslati dokument na daljnju obradu revizoru ili ponovno skenirati isti dokument.
+
+		\subsubsection{Revizor}
+		Zadatak revizora je pregledavanje svih poslanih dokumenata od strane zaposlenika. Za svaki dobiveni dokument dužan je odrediti tip dokumenta i preusmjeriti ga računovođi koji je za taj tip dokumenta zadužen. Ako revizor skenira dokument, aplikacija automatski prepoznaje tip dokumenta.
+
+		\subsubsection{Računovođa}
+		Zadatak računovođe je arhiviranje dokumenata u bazu podataka. Dodatna opcija koju ima računovođa je slanje dokumenta na potpis direktoru prije arhiviranja. Nakon potpisa dokumenta računovođa dobiva obavijest da se dokument može arhivirati. Nakon otvaranja obavijesti, aplikacija automatski otvara dokument koji je potrebno potpisati i daje računovođi opciju za potpis.
+
+		\subsubsection{Direktor}
+		Zadatak direktora je potpisivanje dokumenata koje mu pošalje računovođa. Potpisivanje se može provesti preko obavijesti koju dobije kada računovođa pošalje dokument na potpisivanje ili preko odabira dokumenta iz liste koja prikazuje povijest skeniranih dokumenata spremnih za potpisivanje. Također ima mogućnost generirati i pregledavati statistike za sve zaposlenike i pregledavati povijest skeniranih dokumenata svih zaposlenika.
+		
+		\section{OCR skener}
+		OCR (Optical Character Recognition) je glavna funkcionalnost aplikacije pomoću koje će se slike koje sadrže dokument skeniran pomoću kamere na mobilnom uređaju pretvarati iz slikovnog u tekstualni format. OCR skener dopušta skeniranje samo onda kada su ispunjena 2 uvjeta. Jedan od uvjeta je da je unutar vidnog polja prisutan dokument, a drugi da mobilni uređaj miruje minimalno 0.5 sekundi što se postiže praćenjem senzora mobilnog uređaja.
+		\par
+		Aplikacija pomoću OCR skenera uz samo skeniranje prepoznaje određeni tip dokumenta i na temelju izvornog teksta dokumenta izlučuje određeni sadržaj. Tipovi dokumenata koje OCR skener prepoznaje su: \underline{računi}, \underline{ponuda} i \underline{interni dokument}. Računi će u tekstu dokumenta imati oznaku koja se sastoji od velikog slova "R" te šest znamenaka, a sadržaj će se sastojati od imena klijenta, artikala s cijenama i ukupne cijene. Ponude će u tekstu dokumenta imati kao oznaku veliko slovo "P" i devet znamenaka, a sadržaj će se sastojati od artikala s cijenama i ukupne cijene. Interni dokument kao oznaku ima tri slova "INT" i četiri znamenke te nema određenu strukturu.
+		
+		\section{Ključni dijelovi sustava}
+		Projekt će isporučiti javno dostupnu aplikaciju koja će se moći instalirati na većini suvremenih uređaja. Aplikacija zbog same prirode problematike koju rješava mora biti povezana na internet što uključuje bazu podataka koja mora podržavati veliki promet. Aplikacija zbog mogućnosti primanja obavijesti zahtjeva servis koji komunicira s bazom podataka u svrhu upravljanja obavijestima.
+		
+
+		\section{Slična rješenja}
+		Sustav opisan ovdje trenutno na tržištu ne postoji, ali postoje brojne aplikacije koje imaju prevođenje slike dokumenata u tekstualni format i brojne druge usluge. Potražnja i vrijednost takvih aplikacija je velika i neupitna. Primjeri sličnih aplikacija dostupnih na tržištu su: CamScanner, OCR Text Scanner, Text Scanner i mnoge druge s preko 100 milijuna preuzimanja.
+		%unos slike
+		\begin{figure}[H]
+			\includegraphics[scale=0.7]{slike/CamScanner} %veličina slike u odnosu na originalnu datoteku i pozicija slike
+			\centering
+			\caption{ Primjer postojeće aplikacije}
+			\label{fig:promjene}
+		\end{figure}
+		
+	

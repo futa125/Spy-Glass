@@ -1,0 +1,105 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.SpyGlass" parent="Theme.MaterialComponents.Light">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/spyglass_blue</item>
+        <item name="colorPrimaryVariant">@color/spyglass_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/spyglass_gold</item>
+        <item name="colorSecondaryVariant">@color/spyglass_gold</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Set colors for action bar -->
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="TextInputEditTextStyleLogin">
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textColor">@color/spyglass_blue</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <style name="TextInputEditTextStyleReview">
+        <item name="android:textColor">@color/spyglass_blue</item>
+        <item name="extraMultilineHeightEnabled">true</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="TextInputLayoutStyleLogin" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@color/spyglass_blue</item>
+        <item name="boxStrokeColor">@drawable/stroke_color_selector</item>
+        <item name="boxStrokeErrorColor">@color/error_red</item>
+        <item name="errorEnabled">true</item>
+        <item name="errorTextColor">@color/error_red</item>
+        <item name="hintTextColor">@color/spyglass_gold</item>
+    </style>
+
+    <style name="TextInputLayoutMenuRegister" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="android:textColorHint">@color/spyglass_blue</item>
+        <item name="boxStrokeColor">@drawable/stroke_color_selector</item>
+        <item name="hintTextColor">@color/spyglass_gold</item>
+
+    </style>
+
+    <style name="TextInputLayoutStyleLoginPassword" parent="TextInputLayoutStyleLogin">
+        <item name="passwordToggleEnabled">true</item>
+        <item name="passwordToggleTint">@color/spyglass_blue</item>
+    </style>
+
+    <style name="StyleButton">
+        <item name="android:textColor">@color/spyglass_blue</item>
+        <item name="backgroundTint">@drawable/button_background_color_selector</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/spyglass_blue</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">32dp</item>
+    </style>
+
+
+    <!--    <style name="TopRatedChipStyle" parent="Widget.MaterialComponents.Chip.Action">-->
+    <!--        <item name="android:checkable">true</item>-->
+    <!--        <item name="rippleColor">@color/button_purple</item>-->
+    <!--        <item name="iconStartPadding">4dp</item>-->
+    <!--        <item name="chipStrokeWidth">1dp</item>-->
+    <!--        <item name="chipStrokeColor">@color/button_purple</item>-->
+    <!--        <item name="chipIconTint">@color/button_purple</item>-->
+    <!--        <item name="chipBackgroundColor">@drawable/chip_background_selector</item>-->
+    <!--        <item name="android:textColor">@drawable/chip_text_color_selector</item>-->
+    <!--        <item name="checkedIconTint">@color/white</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="BottomSheetDialog" parent="@style/ThemeOverlay.MaterialComponents.BottomSheetDialog">-->
+    <!--        <item name="bottomSheetStyle">@style/BottomSheet</item>-->
+    <!--        <item name="android:colorBackground">@color/white</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="BottomSheet" parent="Widget.MaterialComponents.BottomSheet.Modal">-->
+    <!--        <item name="backgroundTint">@android:color/transparent</item>-->
+    <!--    </style>-->
+
+
+    <!--    <style name="CardShowStyle">-->
+    <!--        <item name="cardCornerRadius">4dp</item>-->
+    <!--        <item name="cardElevation">2dp</item>-->
+    <!--        <item name="android:clickable">true</item>-->
+    <!--        <item name="android:focusable">true</item>-->
+    <!--        <item name="android:foreground">?android:attr/selectableItemBackground</item>-->
+    <!--    </style>-->
+
+
+    <!--    <style name="SavePasswordCheckboxStyle">-->
+    <!--        <item name="android:textColor">@color/white</item>-->
+    <!--        <item name="android:buttonTint">@color/white</item>-->
+    <!--    </style>-->
+
+</resources>
