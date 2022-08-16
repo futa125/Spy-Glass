@@ -1,34 +1,33 @@
 {
   "project_info": {
-    "project_number": "618588770961",
-    "firebase_url": "https://piratesofcode-45f5a-default-rtdb.europe-west1.firebasedatabase.app",
-    "project_id": "piratesofcode-45f5a",
-    "storage_bucket": "piratesofcode-45f5a.appspot.com"
+    "project_number": "88896433428",
+    "project_id": "spyglass-7a8fe",
+    "storage_bucket": "spyglass-7a8fe.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:618588770961:android:aa54e2d42503a5257c6530",
+        "mobilesdk_app_id": "1:88896433428:android:fe888106bc30a086456601",
         "android_client_info": {
           "package_name": "com.piratesofcode.spyglass"
         }
       },
       "oauth_client": [
         {
-          "client_id": "618588770961-d9ertmaqndo2t6uovak6d8id0rgd1knj.apps.googleusercontent.com",
+          "client_id": "88896433428-coo3c6g22e6ha849kp86gsiot8cd7p41.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDhcvSDl6yp-8ZMY3PW_7w-_pfUFmfjSw8"
+          "current_key": "AIzaSyAxyoFRbC9hg-7clhFX1PUy3HzNib9x-Dk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "618588770961-d9ertmaqndo2t6uovak6d8id0rgd1knj.apps.googleusercontent.com",
+              "client_id": "88896433428-coo3c6g22e6ha849kp86gsiot8cd7p41.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
