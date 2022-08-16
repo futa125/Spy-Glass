@@ -1,4 +1,4 @@
-# Spy-Glass
+# SpyGlass
 
 **Android app used for scanning documents**
 
